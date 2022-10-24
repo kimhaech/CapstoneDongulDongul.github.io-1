@@ -5,7 +5,7 @@ function Speedometer(props) {
 
   return (
     <ReactSpeedometer
-      minValue={0}
+      minValue={-120}
       maxValue={120}
       width={600 - w}
       height={330 - h}
